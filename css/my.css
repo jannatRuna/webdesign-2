@@ -144,7 +144,7 @@ i {
 .extra-div:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
     transform: translateY(-20px);
-	z-index:999;
+    z-index: 999;
 }
 
 /*************three extra header div css  end************/
@@ -266,12 +266,12 @@ i {
 .card:hover .card-footer a {
     color: #fff;
     background: #4CAF50;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 20px -8px rgb(0 0 0 / 11%);
 }
 
 .card:hover {
     transform: translateY(-20px);
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 20px -8px rgb(0 0 0 / 11%);
 }
 
 .card:hover .card-header,
@@ -289,10 +289,11 @@ i {
 
 .box {
     text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(0 0 0 / 2%);
+    box-shadow: 0px 10px 20px -8px rgb(0 0 0 / 11%);
     border-radius: 2px;
     transition: 0.3s ease;
+    margin: 20px 0px;
 }
 
 .box:hover {
@@ -322,7 +323,6 @@ i {
     height: 100px;
     border-radius: 50%;
     margin-top: 20px;
-	object-fit:cover;
 }
 
 .box a:after {
