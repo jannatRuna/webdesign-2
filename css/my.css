@@ -144,10 +144,11 @@ i {
     padding: 50px !important;
     border-radius: 3px;
     transition: 0.3s;
+	
 }
 
 .extra-div:hover {
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 20px -8px rgb(0 0 0 / 11%);
     transform: translateY(-20px);
     z-index: 999;
 }
